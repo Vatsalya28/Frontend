@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://cdn2.vectorstock.com/i/1000x1000/33/46/mb-logo-initial-with-circle-line-cut-design-vector-29633346.jpg" >
+    <title>Maverick Bank</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url('https://img.freepik.com/free-vector/green-abstract-texture-background-with-watercolor_65186-2633.jpg?w=1380&t=st=1706175465~exp=1706176065~hmac=b91f4ff9a6674b7c573f9820a1ac1433a3c5f24264d72cde71786b414ffe9ce6');
+            background-size: cover;
+        }
+        .navbar {
+            background-image: url('https://img.freepik.com/free-vector/watercolor-emerald-background_23-2150238646.jpg?size=626&ext=jpg&ga=GA1.1.1051388568.1706175413&semt=ais');
+            background-size: contain;
+            font-variant: small-caps;
+            box-shadow: 0px 0px 20px 8px black;
+        }
+        .navbar-brand img {
+            border-radius: 50%;
+            height: 45px;
+            width: auto;
+        }
+        .navbar-brand{
+            color: beige;
+            font-size: x-large;
+           
+        }
+        .login-box {
+            background-image: url('https://img.freepik.com/free-vector/watercolor-emerald-background_23-2150238646.jpg?size=626&ext=jpg&ga=GA1.1.1051388568.1706175413&semt=ais');
+            background-size: cover;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px 5px black;
+            color: beige;
+            font-style: oblique;
+            font-variant: small-caps;
+        }
+       #link{
+        color: beige;
+        
+       }
+       #link:hover{
+        color: black;
+       }
+       
+       .form-control{
+        box-shadow: 2px 2px 15px 0px black;
+       }
+       
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="https://cdn2.vectorstock.com/i/1000x1000/33/46/mb-logo-initial-with-circle-line-cut-design-vector-29633346.jpg" alt="Maverick Bank Logo">
+            <strong>Maverick Bank</strong>
+        </a>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="login-box">
+                <h2 class="mb-4 text-center">Login</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="userType" class="form-label">Select User Type:</label>
+                        <select class="form-select" id="userType" name="userType" required>
+                            <option value="customer">Customer</option>
+                            <option value="employee">Bank Employee</option>
+                        </select>
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Username:</label>
+                        <input type="text" class="form-control" id="username" name="username" required>
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password:</label>
+                        <input type="password" class="form-control" id="password" name="password" required>
+                    </div>
+                     <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-4">
+                    <a href="./CD1.html" class="btn btn-light btn-block mx-auto d-block">Log In</a>
+                </div>
+            </div>
+                    <div>
+                </form>
+                <p class="text-center mt-3" >Don't have an account? <a id="link" href="./4thPage.html">Sign Up</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
